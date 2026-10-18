@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+backend/.venv/
+venv/
+.env
+
+# React / Node
+frontend/node_modules/
+frontend/dist/
+
+# Datasets
+data/
+*.csv
+*.jsonl
+*.jsonl.gz
+
+# Model weights and archives
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.cbm
+*.joblib
+*.zip
+
+# Logs and editor files
+*.log
+.vscode/
+
+# Large trained models
+*.cbm
+*.joblib
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.zip
+
+# Datasets
+data/
+
+# Python environments
+backend/.venv/
+__pycache__/
+
+# Frontend dependencies
+frontend/node_modules/
+frontend/dist/

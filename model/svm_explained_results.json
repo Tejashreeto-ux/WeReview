@@ -1,0 +1,23 @@
+{
+  "model": "TF-IDF + Linear SVM revised",
+  "label_source": "Provisional Hollenbeck candidate labels",
+  "test_size": 12871,
+  "reviewer_overlap": 0,
+  "accuracy": 0.8170305337580608,
+  "fake_precision": 0.9092797783933518,
+  "fake_recall": 0.8647097563270298,
+  "fake_f1": 0.886434874861359,
+  "pr_auc": 0.9470878904588561,
+  "false_positive_rate": 0.4090098126672614,
+  "confusion_matrix": [
+    [
+      1325,
+      917
+    ],
+    [
+      1438,
+      9191
+    ]
+  ],
+  "note": "Metrics measure agreement with provisional labels, not independently verified fake-review truth."
+}

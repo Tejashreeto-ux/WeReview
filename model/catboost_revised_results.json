@@ -1,0 +1,26 @@
+{
+  "experiment": "revised_behavioral_catboost",
+  "features": [
+    "reviewer_prior_review_count",
+    "product_prior_review_count"
+  ],
+  "train_size": 50349,
+  "test_size": 12588,
+  "accuracy": 0.8321417222751827,
+  "fake_precision": 0.8351701391682085,
+  "fake_recall": 0.9938732529197779,
+  "fake_f1": 0.9076364907986187,
+  "pr_auc": 0.9201166089820838,
+  "confusion_matrix": [
+    [
+      93,
+      2049
+    ],
+    [
+      64,
+      10382
+    ]
+  ],
+  "best_iteration": 144,
+  "label_warning": "Labels are provisional dataset-derived candidates, not independently verified fake-review ground truth."
+}

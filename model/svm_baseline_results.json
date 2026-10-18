@@ -1,0 +1,23 @@
+{
+  "model": "TF-IDF + Linear SVM",
+  "label_source": "Provisional Hollenbeck candidate labels",
+  "test_size": 12754,
+  "accuracy": 0.8224086561078877,
+  "fake_precision": 0.9104609929078015,
+  "fake_recall": 0.8720634022077555,
+  "fake_f1": 0.8908486338007807,
+  "confusion_matrix_labels": [
+    "genuine_candidate",
+    "fake_candidate"
+  ],
+  "confusion_matrix": [
+    [
+      1246,
+      909
+    ],
+    [
+      1356,
+      9243
+    ]
+  ]
+}
