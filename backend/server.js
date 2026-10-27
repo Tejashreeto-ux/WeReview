@@ -11,7 +11,9 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 4000;
-const FLASK_API_URL = process.env.FLASK_API_URL || 'http://127.0.0.1:5000';
+
+const FLASK_API_URL = 'http://127.0.0.1:5001';
+
 const JWT_SECRET = process.env.JWT_SECRET || 'we_review_super_secret_jwt_key_2025';
 const COOKIE_NAME = 'token';
 

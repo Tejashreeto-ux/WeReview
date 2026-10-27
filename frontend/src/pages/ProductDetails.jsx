@@ -442,7 +442,7 @@ export default function ProductDetails() {
 
         {/* Prediction Result Card */}
         {submitResult && (() => {
-          const isGenuine = submitResult.prediction === 'genuine'
+          const isGenuine = String(submitResult.prediction || '').toLowerCase() === 'genuine'
           const fakePct = (Number(submitResult.fake_probability) * 100).toFixed(1)
           const genuinePct = (Number(submitResult.genuine_probability) * 100).toFixed(1)
           const textPct = submitResult.details ? (Number(submitResult.details.text_fake_probability) * 100).toFixed(1) : null
